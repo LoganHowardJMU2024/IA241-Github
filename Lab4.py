@@ -43,6 +43,7 @@ print(my_tweet)
 print(len(my_tweet["visited_countries"])) 
 
 #3.7
+
 my_tweet["visited_countries"].append("CH") 
 print(my_tweet)
 

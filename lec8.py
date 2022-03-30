@@ -61,7 +61,12 @@ print(cal_pie(1,6))
 def cal_f(m):
     
     if m == 0:
+        return 1def cal_f(m):
+    
+    if m == 0:
         return 1
+    else:
+        return m*cal_f(m-1)
     else:
         return m*cal_f(m-1)
         
